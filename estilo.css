@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color:  #ABAAAA;
+
+}
+header {
+    background: rgb(0, 0, 0);
+    height: 95px;
+    width: 100%;
+    z-index: 10;
+}
+.head {
+    width: 100%;
+    height: 100%;
+}
+#logo {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 2px;
+    margin-left: 3%;
+}
+.menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 5px;
+    
+}
+.li {
+    float: left;
+    font-size: x-large;
+    padding: 35 15 20 15;
+}
+/* 
+TAGS DA PRIMEIRA PARTE */
+
+#Section{
+background-color: #ABAAAA;
+width: 100%;
+text-align: left;
+color: black;
+margin-top: 5%;
+}
+#Section2{
+
+    background-color: #ABAAAA;
+    width: 70%;
+    text-align: left;
+    color: black;
+    display:flex;
+}
+#Section3{
+
+    background-color: #ABAAAA;
+    width: 100%;
+    text-align: left;
+    color: black;
+    margin-top: 5%;
+}
+#beneficios_img{
+    padding-right: 30px;
+}
+.title{
+    text-align: left;
+}
+
+.flex{
+    display: flex;
+    align-content: center;
+}
+.sobre{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    align-content: flex-start;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 30px;
+    text-indent: 35px;
+}
+
+.barbearia_1{
+
+    margin-left: 3%;
+    height: 400px;
+/* }
+.paragrafo{
+    width: 40%;
+    float: left;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 4%;
+} */
+.tituloLista{
+
+    font-weight: bold;
+    width: 180%;
+}
+
+.centralizado {
+    text-align: center;
+    font-size: larger;
+    font-weight: 500px;
+    /* margin-top: 105px; */
+    background-color: #ABAAAA;
+    
+
+}
+.benefits{
+
+    margin-left: 45%;
+    padding-top: 8%;
+    
+
+}
+.Lista{
+    list-style:none;
+    list-style-type: none;
+    margin-left: 45%;
+    width: 30%;
+    margin-top: 30px;
+}
+.video{
+
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.imagem{
+/* 
+    float: right; */
+    width: 50%;
+    padding-top: 3%;
+    padding-left: 18%;
+}
+footer{
+
+    background-color: #2F2F2F;
+    height: 7%;
+    width: 100%;
+}
